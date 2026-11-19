@@ -1,0 +1,113 @@
+.div1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+ }
+/* body{ */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* width: 100%; */
+    /* font-family: Arial, sans-serif; */
+/* }  */
+.option{
+    background-color: grey;
+    margin:10px;
+    word-spacing: 80px;
+}
+.sale{
+    background-color: yellow;
+    text-align: center;
+    width: 100%; 
+}
+h2{
+    text-align: center;
+}
+.box1{
+    text-align: center;
+    background-color:pink;
+    height: 200px;
+    width: 190px;
+    position: relative;
+    box-sizing: border-box;
+}
+.sale1{
+    background-color: red;
+    position: absolute;
+    color: white;
+    text-align: top;
+    top: 0px;
+    left:150px;
+}
+button{
+    background-color: black;
+    color: white;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.box2{
+    text-align: center;
+    background-color: pink;
+    height: 200px;
+    width: 190px;
+    position: relative;
+    box-sizing: border-box;
+}
+.sale2{
+    background-color: red;
+    left:140px;
+    position: absolute;
+    top: 0px;
+    color: white;
+}
+.sale3{
+    background-color: red;
+    left: 140px;
+    position: absolute;
+    top:0px ;
+    color: white;
+
+}
+.sale4{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+}
+.hii{
+    text-align: center;
+
+}
+table{
+    width: 80%;
+    height:150px;
+    border-collapse: collapse;
+}
+ td{
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+.products-title{
+     text-align: center; 
+     margin-bottom: 25px; 
+
+}
